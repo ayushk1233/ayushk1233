@@ -42,13 +42,11 @@
 <br/>
 
 <!-- ========================================== -->
-<!-- 4. ABOUT ME                               -->
+<!-- 4. ABOUT ME (ANIMATED GIT LOG)             -->
 <!-- ========================================== -->
-### ▍ About Me
-
-> I build AI systems at the intersection of **Speech AI, LLM agents, and production engineering**.  
-> 
-> Interested in turning research workflows into **reliable, scalable products**.
+<p align="center">
+  <img src="./assets/git-about.svg" alt="About Me - Git Log" width="100%">
+</p>
 
 <br/>
 

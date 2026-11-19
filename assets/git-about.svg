@@ -1,0 +1,305 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 505" width="100%" height="505px" fill="none">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,600;0,700;1,400&amp;display=swap');
+
+      .terminal-bg {
+        fill: #18111A;
+        stroke: #3D2637;
+        stroke-width: 1.5;
+        rx: 12px;
+      }
+      .code-font {
+        font-family: 'JetBrains Mono', 'Fira Code', Menlo, Monaco, 'Courier New', monospace;
+      }
+      .header-comment {
+        font-size: 13.5px;
+        font-weight: 600;
+        fill: #A88B9E;
+        letter-spacing: 1px;
+      }
+      .header-num {
+        font-size: 13.5px;
+        font-weight: 700;
+        fill: #D79937;
+      }
+      .bio-quote {
+        font-size: 13.5px;
+        fill: #D8CCD5;
+        line-height: 1.6;
+      }
+      .bio-arrow {
+        fill: #D79937;
+        font-weight: 700;
+      }
+      .bio-hl {
+        fill: #FFFFFF;
+        font-weight: 600;
+      }
+      .prompt {
+        font-size: 14px;
+        font-weight: 700;
+        fill: #E5A93C;
+      }
+      .prompt-cmd {
+        font-size: 14px;
+        font-weight: 600;
+        fill: #F5EEF3;
+      }
+      .prompt-flag {
+        fill: #C05296;
+      }
+      .cursor {
+        fill: #D79937;
+        animation: blink 0.9s infinite;
+      }
+      .commit-hash {
+        font-size: 13px;
+        font-weight: 600;
+        fill: #E5A93C;
+        letter-spacing: 0.5px;
+      }
+      .commit-type {
+        font-size: 13px;
+        font-weight: 700;
+        fill: #D45D9E;
+      }
+      .commit-msg {
+        font-size: 13px;
+        font-weight: 400;
+        fill: #EDE4EA;
+      }
+      .head-badge {
+        font-size: 12px;
+        font-weight: 700;
+        fill: #18111A;
+      }
+      .head-msg {
+        font-size: 13.5px;
+        font-weight: 600;
+        font-style: italic;
+        fill: #FCE8B3;
+      }
+
+      /* ================= ANIMATIONS ================= */
+      @keyframes blink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+
+      @keyframes breathingNode {
+        0%, 100% {
+          r: 5px;
+          fill: #B93B7D;
+          filter: drop-shadow(0 0 2px #B93B7D);
+        }
+        50% {
+          r: 6.8px;
+          fill: #E65FA6;
+          filter: drop-shadow(0 0 8px #FF6BB5);
+        }
+      }
+
+      @keyframes rippleRing {
+        0% {
+          r: 5px;
+          opacity: 0.8;
+          stroke-width: 1.5;
+        }
+        50% {
+          opacity: 0.4;
+        }
+        100% {
+          r: 13px;
+          opacity: 0;
+          stroke-width: 0.5;
+        }
+      }
+
+      @keyframes branchGlow {
+        0%, 100% {
+          stroke: #4A2740;
+          stroke-width: 1.5;
+        }
+        50% {
+          stroke: #8E3E6F;
+          stroke-width: 2.2;
+        }
+      }
+
+      @keyframes headPulse {
+        0%, 100% {
+          transform: scale(1);
+          filter: drop-shadow(0 0 2px #D79937);
+        }
+        50% {
+          transform: scale(1.15);
+          filter: drop-shadow(0 0 7px #F5C067);
+        }
+      }
+
+      .node-core {
+        animation: breathingNode 3s infinite ease-in-out;
+      }
+      .node-core-2 {
+        animation: breathingNode 3s infinite ease-in-out;
+        animation-delay: 0.75s;
+      }
+      .node-core-3 {
+        animation: breathingNode 3s infinite ease-in-out;
+        animation-delay: 1.5s;
+      }
+      .node-core-4 {
+        animation: breathingNode 3s infinite ease-in-out;
+        animation-delay: 2.25s;
+      }
+
+      .ripple-ring {
+        animation: rippleRing 3s infinite cubic-bezier(0.2, 0.8, 0.4, 1);
+        transform-origin: center;
+      }
+      .ripple-ring-2 {
+        animation: rippleRing 3s infinite cubic-bezier(0.2, 0.8, 0.4, 1);
+        animation-delay: 0.75s;
+        transform-origin: center;
+      }
+      .ripple-ring-3 {
+        animation: rippleRing 3s infinite cubic-bezier(0.2, 0.8, 0.4, 1);
+        animation-delay: 1.5s;
+        transform-origin: center;
+      }
+      .ripple-ring-4 {
+        animation: rippleRing 3s infinite cubic-bezier(0.2, 0.8, 0.4, 1);
+        animation-delay: 2.25s;
+        transform-origin: center;
+      }
+
+      .git-branch-line {
+        animation: branchGlow 3s infinite ease-in-out;
+      }
+
+      .head-diamond {
+        transform-origin: 52px 0px;
+        animation: headPulse 2.5s infinite ease-in-out;
+      }
+    </style>
+  </defs>
+
+  <!-- ================= TERMINAL WINDOW FRAME ================= -->
+  <rect x="1" y="1" width="938" height="503" class="terminal-bg" />
+
+  <!-- Window Control Dots -->
+  <circle cx="32" cy="24" r="5" fill="#5A2338" />
+  <circle cx="48" cy="24" r="5" fill="#8E6527" />
+  <circle cx="64" cy="24" r="5" fill="#3E2742" />
+
+  <!-- Header: // ABOUT ME                     01 -->
+  <text x="96" y="29" class="code-font header-comment">// ABOUT ME</text>
+  <text x="905" y="29" class="code-font header-num" text-anchor="end">01</text>
+
+  <!-- Header Divider Line -->
+  <line x1="20" y1="44" x2="920" y2="44" stroke="#2D1C2A" stroke-width="1.2" />
+
+  <!-- ================= INTRO COPY ================= -->
+  <g class="code-font bio-quote" transform="translate(32, 72)">
+    <!-- Point 1 -->
+    <text x="0" y="0">
+      <tspan class="bio-arrow">&gt;</tspan> Building at the intersection of <tspan class="bio-hl">Speech AI</tspan>, <tspan class="bio-hl">LLM agents</tspan>, and <tspan class="bio-hl">production engineering</tspan>.
+    </text>
+
+    <!-- Point 2 -->
+    <text x="0" y="26">
+      <tspan class="bio-arrow">&gt;</tspan> From model fine-tuning and inference optimization to <tspan class="bio-hl">reliable, scalable backend systems</tspan>.
+    </text>
+
+    <!-- Point 3 -->
+    <text x="0" y="52">
+      <tspan class="bio-arrow">&gt;</tspan> Turning research ideas into <tspan class="bio-hl">production-ready products</tspan>.
+    </text>
+
+    <!-- Point 4 -->
+    <text x="0" y="78">
+      <tspan class="bio-arrow">&gt;</tspan> Currently exploring <tspan class="bio-hl">agent reliability</tspan>, <tspan class="bio-hl">multilingual Voice AI</tspan>, and <tspan class="bio-hl">ML infrastructure</tspan>.
+    </text>
+  </g>
+
+  <!-- Middle Divider -->
+  <line x1="20" y1="172" x2="920" y2="172" stroke="#2D1C2A" stroke-width="1" stroke-dasharray="4 4" />
+
+  <!-- ================= TERMINAL COMMAND PROMPT ================= -->
+  <g class="code-font" transform="translate(32, 204)">
+    <text x="0" y="0">
+      <tspan class="prompt">$</tspan> <tspan class="prompt-cmd">git log</tspan> <tspan class="prompt-flag">--oneline --about</tspan>
+    </text>
+    <!-- Blinking Cursor -->
+    <rect x="256" y="-12" width="8.5" height="15" class="cursor" />
+  </g>
+
+  <!-- ================= THE BREATHING GIT LOG ================= -->
+  <g class="code-font">
+    <!-- Breathing Vertical Branch Line -->
+    <line x1="52" y1="245" x2="52" y2="445" class="git-branch-line" />
+
+    <!-- ---------------- COMMIT 1 ---------------- -->
+    <g transform="translate(0, 245)">
+      <!-- Outer Ripple Ring -->
+      <circle cx="52" cy="0" r="5" stroke="#E65FA6" fill="none" class="ripple-ring" />
+      <!-- Pulsing Node Core -->
+      <circle cx="52" cy="0" r="5" class="node-core" />
+      <!-- Commit Details -->
+      <text x="80" y="4">
+        <tspan class="commit-hash">a91f3b2</tspan>
+        <tspan dx="16" class="commit-type">build:</tspan>
+        <tspan dx="8" class="commit-msg">intelligent speech systems</tspan>
+      </text>
+    </g>
+
+    <!-- ---------------- COMMIT 2 ---------------- -->
+    <g transform="translate(0, 295)">
+      <circle cx="52" cy="0" r="5" stroke="#E65FA6" fill="none" class="ripple-ring-2" />
+      <circle cx="52" cy="0" r="5" class="node-core-2" />
+      <text x="80" y="4">
+        <tspan class="commit-hash">c72e891</tspan>
+        <tspan dx="16" class="commit-type">feat:</tspan>
+        <tspan dx="8" class="commit-msg">LLM agents + production backends</tspan>
+      </text>
+    </g>
+
+    <!-- ---------------- COMMIT 3 ---------------- -->
+    <g transform="translate(0, 345)">
+      <circle cx="52" cy="0" r="5" stroke="#E65FA6" fill="none" class="ripple-ring-3" />
+      <circle cx="52" cy="0" r="5" class="node-core-3" />
+      <text x="80" y="4">
+        <tspan class="commit-hash">e18d420</tspan>
+        <tspan dx="16" class="commit-type">perf:</tspan>
+        <tspan dx="8" class="commit-msg">fine-tuning &amp; inference optimization</tspan>
+      </text>
+    </g>
+
+    <!-- ---------------- COMMIT 4 ---------------- -->
+    <g transform="translate(0, 395)">
+      <circle cx="52" cy="0" r="5" stroke="#E65FA6" fill="none" class="ripple-ring-4" />
+      <circle cx="52" cy="0" r="5" class="node-core-4" />
+      <text x="80" y="4">
+        <tspan class="commit-hash">f09a361</tspan>
+        <tspan dx="16" class="commit-type">research:</tspan>
+        <tspan dx="8" class="commit-msg">multilingual AI &amp; agent reliability</tspan>
+      </text>
+    </g>
+
+    <!-- ---------------- COMMIT 5: HEAD ---------------- -->
+    <g transform="translate(0, 445)">
+      <!-- Pulsing Diamond Icon ◇ -->
+      <g class="head-diamond">
+        <polygon points="52,-6 58,0 52,6 46,0" fill="#D79937" stroke="#FCE8B3" stroke-width="1.2" />
+      </g>
+      <!-- HEAD Badge & Message -->
+      <g transform="translate(80, -9)">
+        <!-- Gold HEAD Pill -->
+        <rect x="0" y="0" width="70" height="20" rx="3" fill="#D79937" />
+        <text x="8" y="14" class="head-badge">HEAD →</text>
+        <text x="82" y="14" class="head-msg">always learning, always building</text>
+      </g>
+    </g>
+  </g>
+</svg>
