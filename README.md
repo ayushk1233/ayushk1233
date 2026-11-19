@@ -38,3 +38,14 @@
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
 </p>
+
+<br/>
+
+<!-- ========================================== -->
+<!-- 4. ABOUT ME                               -->
+<!-- ========================================== -->
+### ▍ About Me
+
+> I build AI systems at the intersection of **Speech AI, LLM agents, and production engineering**.  
+> 
+> Interested in turning research workflows into **reliable, scalable products**.
