@@ -32,7 +32,7 @@
     <img src="./assets/btn-email.svg" height="38" alt="Email" />
   </a>
   &nbsp;
-  <a href="https://github.com/yourusername">
+  <a href="https://github.com/ayushk1233" target="_blank">
     <img src="./assets/btn-github.svg" height="38" alt="GitHub" />
   </a>
 </p>
@@ -45,15 +45,15 @@
 ### ▍ Featured Projects
 
 <p align="center">
-  <a href="https://github.com/yourusername/indic-speech-dubbing">
+  <a href="https://github.com/ayushk1233/indic-speech-dubbing" target="_blank">
     <img src="./assets/card-speech-dubbing.svg" width="32%" alt="Indic Speech Dubbing Pipeline" />
   </a>
   &nbsp;
-  <a href="https://github.com/yourusername/competitor-intelligence-monitor">
+  <a href="https://github.com/ayushk1233/competitor-intelligence-monitor" target="_blank">
     <img src="./assets/card-competitor-monitor.svg" width="32%" alt="Competitor Intelligence Monitor" />
   </a>
   &nbsp;
-  <a href="https://github.com/yourusername/ddr-report-generator">
+  <a href="https://github.com/ayushk1233/ddr-report-generator" target="_blank">
     <img src="./assets/card-ddr-generator.svg" width="32%" alt="DDR Report Generator" />
   </a>
 </p>
