@@ -68,6 +68,10 @@
   &nbsp;&nbsp;
   <img src="./assets/icons/gemini.svg" alt="Google Gemini" title="Google Gemini" width="40" height="40" />
   &nbsp;&nbsp;
+  <img src="./assets/icons/elevenlabs.svg" alt="ElevenLabs" title="ElevenLabs (Voice AI)" width="40" height="40" />
+  &nbsp;&nbsp;
+  <img src="./assets/icons/sarvam.svg" alt="Sarvam AI" title="Sarvam AI (Indic Speech & Models)" width="40" height="40" />
+  &nbsp;&nbsp;
   <img src="./assets/icons/higgsfield.svg" alt="Higgsfield AI" title="Higgsfield AI" width="40" height="40" />
   &nbsp;&nbsp;
   <img src="./assets/icons/opencode.svg" alt="OpenCode" title="OpenCode" width="40" height="40" />
