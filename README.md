@@ -6,10 +6,10 @@
 </p>
 
 <!-- ========================================== -->
-<!-- 2. ABOUT SECTION WITH ANIMATED TYPEWRITER -->
+<!-- 2. ANIMATED TYPEWRITER BANNER             -->
 <!-- ========================================== -->
 <p align="center">
-  <img src="./assets/about.svg" alt="About Ayush Kumar" width="100%">
+  <img src="./assets/typewriter.gif" alt="Curious by nature, builder by practice." width="100%">
 </p>
 
 <br/>
