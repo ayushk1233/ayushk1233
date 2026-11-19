@@ -8,29 +8,29 @@
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Georgia", serif;
         font-size: 24px;
         font-weight: 700;
-        fill: #1C1917;
+        fill: #261622;
       }
       .about-body {
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
         font-size: 16px;
         font-weight: 400;
-        fill: #262422;
+        fill: #2B1D28;
         letter-spacing: 0.1px;
       }
       .bold-name {
         font-weight: 600;
-        fill: #1C1917;
+        fill: #461A33;
       }
       .highlight {
-        fill: #E8F08A;
+        fill: #F4DEAC;
         rx: 3px;
       }
       .typed-text {
         font-family: "Georgia", "Times New Roman", serif;
         font-style: italic;
         font-size: 15px;
-        font-weight: 500;
-        fill: #1C1917;
+        font-weight: 600;
+        fill: #3A1B2E;
       }
     </style>
     <!-- Typewriter animation for 'Curious by nature, builder by practice.' -->
@@ -42,12 +42,12 @@
     </path>
   </defs>
 
-  <!-- Left Header: | About -->
-  <rect x="20" y="24" width="4.5" height="24" rx="1.5" fill="#8F1D1D" />
+  <!-- Left Header: | About in Deep Plum -->
+  <rect x="20" y="24" width="4.5" height="24" rx="1.5" fill="#6E2850" />
   <text x="36" y="44" class="about-title">About</text>
 
   <!-- Vertical Divider Line -->
-  <line x1="168" y1="16" x2="168" y2="100" stroke="#DCD5C5" stroke-width="1.5" />
+  <line x1="168" y1="16" x2="168" y2="100" stroke="#D8C9BE" stroke-width="1.5" />
 
   <!-- Right Description -->
   <text x="186" y="38" class="about-body">
@@ -57,10 +57,10 @@
     that turn research into real, impactful products.
   </text>
 
-  <!-- Highlight Pill Background -->
+  <!-- Golden Ochre Highlight Pill Background -->
   <rect x="184" y="76" width="310" height="22" class="highlight" />
 
-  <!-- Animated Typewriter Quote -->
+  <!-- Animated Typewriter Quote in Plum -->
   <text class="typed-text">
     <textPath xlink:href="#quotePath">
       Curious by nature, builder by practice.
