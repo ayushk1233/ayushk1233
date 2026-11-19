@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="38" viewBox="0 0 220 38" fill="none">
+  <defs>
+    <style>
+      .btn-bg { fill: #FAF7F2; stroke: #D8D1C3; stroke-width: 1.5; rx: 8px; }
+      .accent { stroke: #CCD647; stroke-width: 2.5; stroke-linecap: round; }
+      .text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 13.5px; font-weight: 600; fill: #262422; }
+      .icon-red { fill: #B91C1C; }
+      .arrow { font-family: sans-serif; font-size: 13px; fill: #6B655B; }
+    </style>
+  </defs>
+
+  <!-- Button Base -->
+  <rect x="1" y="1" width="218" height="36" class="btn-bg" />
+  <line x1="1" y1="10" x2="1" y2="28" class="accent" />
+
+  <!-- LinkedIn 'in' Icon -->
+  <g transform="translate(62, 11)">
+    <rect x="0" y="0" width="16" height="16" rx="3" fill="#B91C1C"/>
+    <text x="8" y="12" font-family="-apple-system, sans-serif" font-size="11" font-weight="800" fill="#FAF7F2" text-anchor="middle">in</text>
+  </g>
+
+  <!-- Label -->
+  <text x="86" y="24" class="text">LinkedIn</text>
+  <text x="146" y="23" class="arrow">↗</text>
+</svg>
