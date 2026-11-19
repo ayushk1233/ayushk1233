@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 0 1000 115"
+     width="100%" height="115px" fill="none">
+  <defs>
+    <style>
+      .about-title {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Georgia", serif;
+        font-size: 24px;
+        font-weight: 700;
+        fill: #1C1917;
+      }
+      .about-body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        fill: #262422;
+        letter-spacing: 0.1px;
+      }
+      .bold-name {
+        font-weight: 600;
+        fill: #1C1917;
+      }
+      .highlight {
+        fill: #E8F08A;
+        rx: 3px;
+      }
+      .typed-text {
+        font-family: "Georgia", "Times New Roman", serif;
+        font-style: italic;
+        font-size: 15px;
+        font-weight: 500;
+        fill: #1C1917;
+      }
+    </style>
+    <!-- Typewriter animation for 'Curious by nature, builder by practice.' -->
+    <path id="quotePath">
+      <animate id="qAnim" attributeName="d" begin="0s;qAnim.end"
+               dur="6000ms" fill="remove"
+               values="m188,90 h0 ; m188,90 h320 ; m188,90 h320 ; m188,90 h0"
+               keyTimes="0;0.52;0.88;1" />
+    </path>
+  </defs>
+
+  <!-- Left Header: | About -->
+  <rect x="20" y="24" width="4.5" height="24" rx="1.5" fill="#8F1D1D" />
+  <text x="36" y="44" class="about-title">About</text>
+
+  <!-- Vertical Divider Line -->
+  <line x1="168" y1="16" x2="168" y2="100" stroke="#DCD5C5" stroke-width="1.5" />
+
+  <!-- Right Description -->
+  <text x="186" y="38" class="about-body">
+    <tspan class="bold-name">I’m Ayush Kumar</tspan> — an AI/ML engineer building speech AI systems and LLM agents
+  </text>
+  <text x="186" y="62" class="about-body">
+    that turn research into real, impactful products.
+  </text>
+
+  <!-- Highlight Pill Background -->
+  <rect x="184" y="76" width="310" height="22" class="highlight" />
+
+  <!-- Animated Typewriter Quote -->
+  <text class="typed-text">
+    <textPath xlink:href="#quotePath">
+      Curious by nature, builder by practice.
+    </textPath>
+  </text>
+</svg>

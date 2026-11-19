@@ -2,17 +2,15 @@
 <!-- 1. HERO BANNER                            -->
 <!-- ========================================== -->
 <p align="center">
-  <img src="./assets/header.png" alt="Ayush Kumar - अदम्य" width="100%">
+  <img src="./assets/header.png" alt="Ayush Kumar - AI/ML Engineer" width="100%">
 </p>
 
 <!-- ========================================== -->
-<!-- 2. ABOUT SECTION                          -->
+<!-- 2. ABOUT SECTION WITH ANIMATED TYPEWRITER -->
 <!-- ========================================== -->
-### ▍ About
-
-> I’m **Ayush Kumar** — an AI/ML engineer building speech AI systems and LLM agents that turn research into real, impactful products.  
-> 
-> *`Curious by nature, builder by practice.`*
+<p align="center">
+  <img src="./assets/about.svg" alt="About Ayush Kumar" width="100%">
+</p>
 
 <br/>
 
@@ -28,7 +26,7 @@
     <img src="./assets/btn-linkedin.svg" height="38" alt="LinkedIn" />
   </a>
   &nbsp;
-  <a href="mailto:your.email@example.com">
+  <a href="mailto:ayushk1503@gmail.com">
     <img src="./assets/btn-email.svg" height="38" alt="Email" />
   </a>
   &nbsp;

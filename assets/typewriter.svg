@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 0 350 28"
+     width="350px" height="28px" fill="none">
+  <defs>
+    <style>
+      .highlight { fill: #EBF2A6; rx: 3px; }
+      .typed-text {
+        font-family: "Georgia", "Times New Roman", serif;
+        font-style: italic;
+        font-size: 14.5px;
+        font-weight: 500;
+        fill: #262422;
+      }
+    </style>
+    <path id="typePath">
+      <animate id="typeAnim" attributeName="d" begin="0s;typeAnim.end"
+               dur="5000ms" fill="remove"
+               values="m8,15 h0 ; m8,15 h330 ; m8,15 h330 ; m8,15 h0"
+               keyTimes="0;0.55;0.88;1" />
+    </path>
+  </defs>
+
+  <!-- Highlighter Background -->
+  <rect x="2" y="3" width="310" height="22" class="highlight" />
+
+  <!-- Animated Text along Path -->
+  <text class="typed-text" dominant-baseline="middle" y="1">
+    <textPath xlink:href="#typePath">
+      Curious by nature, builder by practice.
+    </textPath>
+  </text>
+</svg>
